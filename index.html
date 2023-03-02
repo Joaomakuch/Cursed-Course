@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link rel ="stylesheet" type = "text/css" href="./assets/css/style_site.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursed</title>
+</head>
+<body>
+    <header class="head">
+        <h1 class="title">
+            <a href="#about">Cursed</a>
+        </h1>
+        <h2 class="navigation">
+            <a href="#about">Sobre</a>
+            <a href="#plans">Planos</a>
+            <a href="#contact">Contato</a>
+        </h2>
+    </header>
+
+    <section class="sobre" id="about">
+        <div class="text-about">
+            <h1>
+                Welcome to the cursed course
+            </h1>
+            <p>
+                Neste curso iremos aprender a como modelar um site de forma bonita, diferente deste aqui.
+                <br>
+                Ao lado direito podemos ver a foto de um computador.
+                <br><br>
+                Aqui iremos aprender a como programar, as principais linguagens de programação, estrutura de dados e Programação orientada a objetos (POO).
+                <br><br>
+                Lembrando que esse site é apenas meramente ilustrativo, com fins educacionais.
+            </p>
+        </div>
+        <img src="./assets/img/comp.png">
+    </section>
+
+    <section class="planos" id="plans">
+        <h2>
+            Planos
+        </h2>
+        <div class="grid">
+            <div class="payment">
+                <h3>
+                    Junior
+                </h3>
+                <p>
+                    R$ 14,99 / mês
+                </p>
+                <ul class="list">
+                    <li>Conteúdo básico</li>
+                    <li>Download IDE</li>
+                    <li><s>Tutorial sobre API</s></li>
+                    <li><s>Vídeos</s></li>
+                    <li><s>Dicas</s></li>
+                  </ul>  
+                  <p>
+                    <button type="button" class="button_payment">Assinar</button>
+                  </p>
+            </div>
+            <div class="payment">
+                <h3>
+                    Pleno
+                </h3>
+                <p>
+                    R$ 27,99 / mês
+                </p>
+                <ul class="list">
+                    <li>Conteúdo básico</li>
+                    <li>Download IDE</li>
+                    <li>Tutorial sobre API</li>
+                    <li><s>Vídeos</s></li>
+                    <li><s>Dicas</s></li>
+                  </ul>  
+                  <p>
+                    <button type="button" class="button_payment">Assinar</button>
+                  </p>
+            </div>
+            <div class="payment">
+                <h3>
+                    Sênior
+                </h3>
+                <p>
+                    R$ 39,99 / mês
+                </p>
+                <ul class="list">
+                    <li>Conteúdo básico</li>
+                    <li>Download IDE</li>
+                    <li>Tutorial sobre API</li>
+                    <li>Vídeos</li>
+                    <li>Dicas </li>
+                  </ul>  
+                  <p>
+                    <button type="button" class="button_payment">Assinar</button>
+                  </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="contato" id="contact">
+        <div>
+            <h2>
+                Contato
+            </h2>
+            <form method="post" class="login" action="/action_page.php">
+                <input type="text" name="nome" class="login_user" id="nome" size="45" placeholder="Nome"><br>
+                <input type="text" name="sobrenome" class="login_user" id="snome" size="45" placeholder="Sobrenome"><br>
+                <input type="text" name="email" class="login_user" size="45" id="email" placeholder="E-mail"><br>
+                <input type="password" name="senha" class="login_user" size="45" id="senha" placeholder="Senha"><br>
+                <input type="text" name="duvidas" class="login_user" size="45" id="duvidas" placeholder="Dúvidas"><br>
+                <button type="button" class="send">Enviar</button>
+            </form>
+        </div>
+        <img src="./assets/img/computer_3.png">
+    </section>
+</body>
+</html>
